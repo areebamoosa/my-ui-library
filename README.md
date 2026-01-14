@@ -10,7 +10,7 @@ The components are styled using **Tailwind CSS** and documented with **Storybook
 
 This project helped me understand how real-world UI libraries are structured, how design systems stay consistent, and how to document components in a professional way.
 
-## ✨ Features
+##  Features
 
 - 🌿 Reusable and customizable React components
 - 🎨 Styled using Tailwind CSS utility classes
@@ -21,3 +21,7 @@ This project helped me understand how real-world UI libraries are structured, ho
 ## 🎯 Purpose
 
 This library was built to reuse components across my React projects, practice creating scalable component systems, and learn how to write professional component documentation.
+
+## 📚 Documentation
+
+👉 [View full storybook](https://areebamoosa.github.io/my-ui-library)
