@@ -1,0 +1,13 @@
+import{j as e}from"./jsx-runtime-D_zvdyIk.js";import{r as c}from"./iframe-DlbdfWqS.js";import{P as i}from"./index-CAeTlQV3.js";import"./preload-helper-PPVm8Dsz.js";const o=({isOpen:n,onClose:s,title:r,children:a})=>n?e.jsx("div",{className:"fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm z-50 ",onClick:s,children:e.jsxs("div",{className:"bg-white rounded-2xl shadow-2xl p-8 w-[90%] max-w-2xl transform transition-all duration-300 scale-100  relative",onClick:l=>l.stopPropagation(),children:[e.jsx("div",{className:"flex justify-between items-center mb-5",children:e.jsx("h2",{className:"text-2xl font-semibold text-gray-800",children:r})}),e.jsx("div",{className:"text-gray-600 leading-relaxed text-base",children:a}),e.jsx("div",{className:"flex justify-end mt-8",children:e.jsx("button",{onClick:s,className:"px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-all cursor-pointer",children:"Close"})})]})}):null;o.propTypes={isOpen:i.bool.isRequired,onClose:i.func.isRequired,title:i.string,children:i.node};o.__docgenInfo={description:"",methods:[],displayName:"Dialog",props:{isOpen:{description:"",type:{name:"bool"},required:!0},onClose:{description:"",type:{name:"func"},required:!0},title:{description:"",type:{name:"string"},required:!1},children:{description:"",type:{name:"node"},required:!1}}};const x={title:"UI/Dialog",component:o,tags:["autodocs"]},t=()=>{const[n,s]=c.useState(!1);return e.jsxs("div",{className:"flex flex-col items-center justify-center min-h-screen bg-gray-100",children:[!n&&e.jsx("button",{onClick:()=>s(!0),className:"px-4 py-3 bg-black text-white rounded-lg text-lg shadow-lg hover:bg-gray-800 transition-all cursor-pointer",children:"Open  Dialog"}),e.jsx(o,{isOpen:n,onClose:()=>s(!1),title:"Default Dialog",children:e.jsx("p",{children:"This is a basic dialog."})})]})};t.__docgenInfo={description:"",methods:[],displayName:"PopupBox"};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:`() => {
+  const [open, setOpen] = useState(false);
+  return <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+            {!open && <button onClick={() => setOpen(true)} className="px-4 py-3 bg-black text-white rounded-lg text-lg shadow-lg hover:bg-gray-800 transition-all cursor-pointer">
+                    Open  Dialog
+                </button>}
+
+            <Dialog isOpen={open} onClose={() => setOpen(false)} title="Default Dialog">
+                <p>This is a basic dialog.</p>
+
+            </Dialog>
+        </div>;
+}`,...t.parameters?.docs?.source}}};const g=["PopupBox"];export{t as PopupBox,g as __namedExportsOrder,x as default};

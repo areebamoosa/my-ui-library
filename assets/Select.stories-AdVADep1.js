@@ -1,0 +1,14 @@
+import{j as e}from"./jsx-runtime-D_zvdyIk.js";import{r as i}from"./iframe-DlbdfWqS.js";import"./preload-helper-PPVm8Dsz.js";function t(){const[c,l]=i.useState("Select a category"),[o,d]=i.useState(!1),m=["Beauty","Makeup","Skincare","Haircare","Accessories"];return e.jsxs("div",{className:"relative w-56 text-gray-800",children:[e.jsxs("div",{onClick:()=>d(!o),className:"bg-white border border-gray-300 rounded-md px-4 py-2 cursor-pointer shadow-sm hover:shadow-md flex justify-between items-center transition-all",children:[e.jsx("span",{children:c}),e.jsx("i",{className:`fa-solid fa-chevron-down transition-transform ${o?"rotate-180":""}`})]}),o&&e.jsx("ul",{className:"absolute z-10 mt-2 w-full bg-white border border-gray-200 rounded-md shadow-lg overflow-hidden animate-fadeIn",children:m.map((n,p)=>e.jsx("li",{onClick:()=>{l(n),d(!1)},className:`px-4 py-2 hover:bg-gray-100 cursor-pointer ${c===n?"bg-gray-100 text-black font-medium":""}`,children:n},p))})]})}t.__docgenInfo={description:"",methods:[],displayName:"Select"};const h={title:"UI/Select",component:t,tags:["autodocs"]},s=()=>e.jsx("div",{className:"flex justify-center items-center  ",children:e.jsx(t,{})}),r=()=>e.jsx("div",{className:"flex justify-center items-center min-h-screen bg-gray-50",children:e.jsxs("div",{className:"bg-white p-6 rounded-2xl shadow-lg",children:[e.jsx("h3",{className:"text-lg font-semibold mb-3 text-gray-700",children:"Choose a Category"}),e.jsx(t,{})]})}),a=()=>e.jsx("div",{className:"flex justify-center items-center min-h-screen ",children:e.jsx("div",{className:"p-4 rounded-xl bg-gray-800",children:e.jsx(t,{})})});s.__docgenInfo={description:"",methods:[],displayName:"Default"};r.__docgenInfo={description:"",methods:[],displayName:"InsideCard"};a.__docgenInfo={description:"",methods:[],displayName:"DarkMode"};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`() => <div className="flex justify-center items-center  ">
+        <Select />
+    </div>`,...s.parameters?.docs?.source}}};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`() => <div className="flex justify-center items-center min-h-screen bg-gray-50">
+        <div className="bg-white p-6 rounded-2xl shadow-lg">
+            <h3 className="text-lg font-semibold mb-3 text-gray-700">
+                Choose a Category
+            </h3>
+            <Select />
+        </div>
+    </div>`,...r.parameters?.docs?.source}}};a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`() => <div className="flex justify-center items-center min-h-screen ">
+        <div className="p-4 rounded-xl bg-gray-800">
+            <Select />
+        </div>
+    </div>`,...a.parameters?.docs?.source}}};const f=["Default","InsideCard","DarkMode"];export{a as DarkMode,s as Default,r as InsideCard,f as __namedExportsOrder,h as default};
