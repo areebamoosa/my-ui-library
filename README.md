@@ -4,7 +4,7 @@ A minimalist **React component library** based on Tailwind CSS.
 
 ## About the Library 🚀
 
-This library is my own custom-built UI system, created to reflect my **personal design style and development preferences**. It focuses on building reusable React components that are easy to use, visually consistent, and scalable across projects.
+This library is my own custom-built UI system, created to reflect my **personal design style and development preferences**. It focuses on building reusable React components that are easy to use and scalable across projects.
 
 The components are styled using **Tailwind CSS** and documented with **Storybook**, making it easy to explore, test, and reuse them in different applications.
 
