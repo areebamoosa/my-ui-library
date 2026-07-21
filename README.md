@@ -24,4 +24,4 @@ This library was built to reuse components across my React projects, practice cr
 
 ## 📚 Documentation
 
-👉 [View full storybook](https://areebamoosa.github.io/my-ui-library)
+👉 [View full storybook](https://my-ui-library-inky.vercel.app/)
